@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="*"
+    >
+
+    <TableRow>
+        <Button android:text="성명"/>
+        <Button android:text="국어"/>
+        <Button android:text="수학"/>
+        <Button android:text="영어"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="홍길동" style="@style/my_name"/>
+        <TextView android:text="90" style="@style/my_number"/>
+        <TextView android:text="80" style="@style/my_number"/>
+        <TextView android:text="70" style="@style/my_number"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="김로봇" style="@style/my_name"/>
+        <TextView android:text="80" style="@style/my_number"/>
+        <TextView android:text="100" style="@style/my_number"/>
+        <TextView android:text="40" style="@style/my_number"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평균" style="@style/my_name"/>
+        <TextView android:text="95.7"
+            android:layout_span="3"
+            style="@style/my_number"
+            />
+    </TableRow>
+
+</TableLayout>
